@@ -1,26 +1,24 @@
 # Suitable
 
 Meet Suitable. Instant authenticated web2-actions framework for Sui objects. It binds everyday actions to digital assets.
-Imagine if everyone could: read the new Harry Potter, play game of the year from Steam, watch the latest Marvel movie. Just by clicking the asset in the wallet. All of this is simply possible with Suitable's safe authentication protocol.
+Imagine if everyone could: read the new Harry Potter book, play game of the year from Steam, watch the latest Marvel movie. Just by clicking the asset in the wallet. All of this is simply possible with Suitable's safe authentication protocol.
 
 Demo video
 
-# Suitable technology
+## Suitable technology
 
-Suitable stands on three technologies:
+Suitable tech is simple and tried. Which makes it safe in production. Suitable stands on three technologies:
 
-First, an Ownership Oracle - a smart contract acting like a gatekeeper.
+1. The Ownership Oracle - a smart contract acting like a gatekeeper.
 If it receives an object - it will announce an object id, owner's public auth token.
 
-Second, the action server. The action provider adds, a line of code to his digital service. When asked by wallet, it generates one-time public and secret auth token pair. The one-to-one mapping between public and secret token is stored on the server. The same server validates an answer from Ownership Oracle. After validating it provides the action to secret token holder.
+2. The action server. The action provider adds, a line of code to his digital service. When asked by wallet, it generates one-time public and secret auth token pair. The one-to-one mapping between public and secret token is stored on the server. The same server validates an answer from Ownership Oracle. After validating it provides the action to secret token holder.
 
-Third, the wallet. The forked version of Sui wallet serves an example. By fetching available actions and endpoints from 
+3. The wallet. The forked version of Sui wallet serves an example. By fetching available actions and endpoints from 
 the object, the wallet provides a UI button to dipatch an instant action. The wallet receives auth token/secret pair from the server. Authenticates the token via Ownership Oracle. Returns the transaction id and secret to be accepted by the server.
 
 
-
-
-# Social mission
+## Social mission
 
 Share and care, send it to friends, to family, to people who need it but can't afford it. The right of action is transferred together with the asset.
 Share and care by sending to your family. The action is transferred together with the 
@@ -81,7 +79,10 @@ Imagine creators patreon onyl for supporters,
 
 ## Safety
 
-## The difference
+
+##
+
+## Substantial difference
 
 You might ask why ditch Wallet Connect. It's everywhere. It's classic.
 While Wallet Connect, is a safe protocol to log-in via your wallet. The regular userflow looks like this:
