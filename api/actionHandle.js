@@ -32,8 +32,8 @@ app.use(express.json());
 app.use(cors())
 
 
-const actionNFTPackage = '0xed3f1711fd12bc75b064cf884d0306f5c4da39ba'
-objectsAllowedToAct = ["0x57f52d959ebb45ee76955b12e1af37067122f2ba"]
+const actionNFTPackage = '0x3f148d648966857e3d1e5e49563b3d709bff782a'
+objectsAllowedToAct = ["0xfe0c0efde12c3d4b88a99fc510689a7bedfd0fa3"]
 const validityTimeMs = 5 * 1000;
 
 tokens = {}
@@ -111,7 +111,7 @@ app.get('/watch/content', async function (req, res) {
     if (!valid) return res.end()
     if (Date.now() - tx.timestamp_ms > validityTimeMs) { valid = false; console.log("Expired link") }
     if (!valid) return res.end()
- 
+
     res.sendFile(path.join(__dirname, '/index.html'));
 })
 

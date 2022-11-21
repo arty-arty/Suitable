@@ -3,7 +3,8 @@
 This is a fork of /sui/apps/wallet. It allows instantly playing actions attached to NFTs.
 It implements the safe Suitable protocol in the wallet.
 
-Devnet is wiped often. So, all action_nft contract addresses must be updated each time.
+Devnet is wiped often. So, all action_nft contract addresses must be updated each time. If problems with dependencies install arise, paste this folder into https://github.com/MystenLabs/sui /apps/
+And then try again - pnpm install
 
 ## A note on Security
 

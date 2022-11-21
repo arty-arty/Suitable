@@ -126,7 +126,7 @@ export const actNFT = createAsyncThunk<
     console.log({ auth });
 
     const moveCallTxn = await signer.executeMoveCall({
-        packageObjectId: '0xed3f1711fd12bc75b064cf884d0306f5c4da39ba',
+        packageObjectId: '0x3f148d648966857e3d1e5e49563b3d709bff782a',
         module: 'action_nft',
         function: 'authenticate_action',
         typeArguments: [],

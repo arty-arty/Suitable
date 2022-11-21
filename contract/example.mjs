@@ -33,7 +33,7 @@ const createNFT = async ({ name, description, image }) => {
 
 const createActionNFT = async ({ name, description, image, endpoint, action_name }) => {
     const moveCallTxn = await signer.executeMoveCall({
-        packageObjectId: '0xed3f1711fd12bc75b064cf884d0306f5c4da39ba',
+        packageObjectId: '0x3f148d648966857e3d1e5e49563b3d709bff782a',
         module: 'action_nft',
         function: 'mint',
         typeArguments: [],
@@ -57,19 +57,19 @@ const nftId1 = await createActionNFT({
     action_name: "Play"
 })
 
-const moveCallTxn = await signer.executeMoveCall({
-    packageObjectId: '0xed3f1711fd12bc75b064cf884d0306f5c4da39ba',
-    module: 'action_nft',
-    function: 'authenticate_action',
-    typeArguments: [],
-    arguments: [
-        //nftId1,
-        "0x57f52d959ebb45ee76955b12e1af37067122f2ba",
-        "933cd94d-85d2-4545-b87e-c1b2ee1a0448"
-    ],
-    gasBudget: 10000,
-});
-console.log(moveCallTxn)
+// const moveCallTxn = await signer.executeMoveCall({
+//     packageObjectId: '0xed3f1711fd12bc75b064cf884d0306f5c4da39ba',
+//     module: 'action_nft',
+//     function: 'authenticate_action',
+//     typeArguments: [],
+//     arguments: [
+//         //nftId1,
+//         "0x57f52d959ebb45ee76955b12e1af37067122f2ba",
+//         "933cd94d-85d2-4545-b87e-c1b2ee1a0448"
+//     ],
+//     gasBudget: 10000,
+// });
+// console.log(moveCallTxn)
 // const nftId2 = await createNFT({
 //     name: 'The best NFT ever!',
 //     description: 'An NFT better than just an NFT',
