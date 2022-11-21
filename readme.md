@@ -3,7 +3,7 @@
 Meet Suitable. Instant authenticated web2-actions framework for Sui objects. It binds everyday actions to digital assets.
 Imagine if everyone could: read the new Harry Potter book, play game of the year from Steam, watch the latest Marvel movie. Just by clicking the asset in the wallet. All of this is simply possible with Suitable's safe authentication protocol.
 
-https://user-images.githubusercontent.com/86002990/203075866-d5b63ab8-a6e5-4d4c-85b1-025bf9301845.mp4
+[A simple demo of a Private Pre-Sale game access](https://www.youtube.com/watch?v=agwS91HOJmk)
 
 ## Suitable technology
 
