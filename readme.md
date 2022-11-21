@@ -1,6 +1,118 @@
 # Suitable
 
-Meet Suitable. A simple proven-fair upgrade for your favourite random numbers generator. It is a web2 API that generates true random numbers. [A smart signature](https://github.com/arty-arty/thefairrandomizer/blob/main/contract/mainWithNumber.py#L46) running on decentralized network of Algorand guarantees the fairness. [The proof is stored forever on-chain](https://testnet.algoexplorer.io/tx/RGZQ6AGWZIMDZBWBOVCOQXFH3ITFI5SUGYFEBEHLTVET2Y4XS46A) inside of a transaction note. Thanks to a new [AVM 7 Teal opcodes vrf_verify and block](https://developer.algorand.org/articles/avm-7-new-features/), the very fact that this transaction exists - means mathematically verified randomness. Showing this transaction to the end-user demonstrates complete fairness, transparency, and trust. 
+Meet Suitable. Instant authenticated web2-actions framework for Sui objects. It binds everyday actions to digital assets.
+Imagine if everyone could: read the new Harry Potter, play game of the year from Steam, watch the latest Marvel movie. Just by clicking the asset in the wallet. All of this is simply possible with Suitable's safe authentication protocol.
+
+Demo video
+
+# Suitable technology
+
+Suitable stands on three technologies:
+
+First, an Ownership Oracle - a smart contract acting like a gatekeeper.
+If it receives an object - it will announce an object id, owner's public auth token.
+
+Second, the action server. The action provider adds, a line of code to his digital service. When asked by wallet, it generates one-time public and secret auth token pair. The one-to-one mapping between public and secret token is stored on the server. The same server validates an answer from Ownership Oracle. After validating it provides the action to secret token holder.
+
+Third, the wallet. The forked version of Sui wallet serves an example. By fetching available actions and endpoints from 
+the object, the wallet provides a UI button to dipatch an instant action. The wallet receives auth token/secret pair from the server. Authenticates the token via Ownership Oracle. Returns the transaction id and secret to be accepted by the server.
+
+
+
+
+# Social mission
+
+Share and care, send it to friends, to family, to people who need it but can't afford it. The right of action is transferred together with the asset.
+Share and care by sending to your family. The action is transferred together with the 
+
+Social adoption starts with social value.
+This our answer to the next billion users
+
+
+
+
+  Because it is an authentication technology, all of your game inventory, bookmarks, 
+ travel with the asset. 
+
+
+
+
+
+which will announce in public that 
+and any message note you provide.
+
+Read a book, play  . Alomost any utility function can be
+The right is transfe
+
+With a safe protocol, and convenient user experience. This our contribution to the mission of attracting next billion users to Sui. 
+
+Read more to understand tech details.
+must attach solid value to objects. 
+
+<!-- It turns the tables by  -->
+
+Two concepts guarantee safety and rich usability:
+
+The safety 
+
+Which we call ownership
+
+click and NFT in the wallet
+
+Right now, most NFTs have no real-world value. Utility NFTs seem to 
+
+Just picture. The only reason for some to buy it - selling it for more.
+
+
+Netflix subscription you buy it with SUI. And instantly receive. 
+Suitable changes the idustry 
+Suitable saves the day by
+
+Car keys NFC, passive actions,
+
+Imagine you pay with SUI for a vacuum cleaner
+
+Ticket for Taylor Swift, you click it,
+only for buyers
+
+Imagine creators patreon onyl for supporters,
+
+
+
+## Safety
+
+## The difference
+
+You might ask why ditch Wallet Connect. It's everywhere. It's classic.
+While Wallet Connect, is a safe protocol to log-in via your wallet. The regular userflow looks like this:
+
+1. Remember what domain your NFT is usable at. 
+2. Open the domain in your browser.
+3. Find and click Wallet Connect button.
+4. Open the wallet.
+5. Click allow to connect this app in the wallet.
+6. Sign a zero transaction in the wallet to prove your identity.
+7. Open 
+
+With Suitable the flow reduces to:
+
+1. Open the Sui wallet.
+2. See where your NFT is.
+3. Click action on your NFT.
+
+If you don't believe 
+It almost looks like 
+
+What is more fascinating. Suitable is all about sharing and caring. 
+Once you are ready to give away objects to family and friends. Just send it to your children.
+
+
+## The implications
+
+Subscriptions to VPN, streaming services,
+d
+
+simple proven-fair upgrade for your favourite random numbers generator. It is a web2 API that generates true random numbers. [A smart signature](https://github.com/arty-arty/thefairrandomizer/blob/main/contract/mainWithNumber.py#L46) running on decentralized network of Algorand guarantees the fairness. [The proof is stored forever on-chain](https://testnet.algoexplorer.io/tx/RGZQ6AGWZIMDZBWBOVCOQXFH3ITFI5SUGYFEBEHLTVET2Y4XS46A) inside of a transaction note. Thanks to a new [AVM 7 Teal opcodes vrf_verify and block](https://developer.algorand.org/articles/avm-7-new-features/), the very fact that this transaction exists - means mathematically verified randomness. Showing this transaction to the end-user demonstrates complete fairness, transparency, and trust. 
 
 Sounds like an impossible magic-trick? [Learn more about security and fairness](#security-and-fairness) or just play around [with a prototype](https://rand.algotool.app) built using this API.
 

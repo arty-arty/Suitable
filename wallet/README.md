@@ -1,5 +1,9 @@
 ## A fork with NFT Actions
-This is a fork of /sui/apps/wallet.
+
+This is a fork of /sui/apps/wallet. It allows instantly playing actions attached to NFTs.
+It implements the safe Suitable protocol in the wallet.
+
+Devnet is wiped often. So, all action_nft contract addresses must be updated each time.
 
 ## A note on Security
 
