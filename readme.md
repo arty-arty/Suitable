@@ -1,12 +1,14 @@
 # Suitable
 
+
 Meet Suitable. Instant authenticated web2-actions framework for Sui objects. It binds everyday actions to digital assets.
 Imagine if everyone could: read the new Harry Potter book, play game of the year from Steam, watch the latest Marvel movie. Just by clicking the asset in the wallet. All of this is simply possible with Suitable's safe authentication protocol.
 
 [A simple demo of a private Pre-Sale game access](https://www.youtube.com/watch?v=agwS91HOJmk)
-![image](https://user-images.githubusercontent.com/86002990/203318068-5389edbd-e722-4ecf-a57a-4dfed79a0177.png)
 
 ## Suitable technology
+
+<a href = "https://www.youtube.com/watch?v=agwS91HOJmk"><img align="left" src="https://user-images.githubusercontent.com/86002990/203318407-49731a99-a6e8-4782-9fb6-51fa00ae6ab8.png" width="220px"></a>
 
 Suitable tech is simple and tried. Which makes it safe in production. Suitable stands on three technologies:
 
@@ -18,6 +20,7 @@ If it receives an object - it will announce an object id, owner's public auth to
 3. The wallet. The [forked version of Sui wallet](https://github.com/arty-arty/Suitable/blob/85dbfc32ac1ad95d995a6a775d0f43174d1eb494/wallet/src/ui/app/redux/slices/sui-objects/index.ts#L110) serves an example. By fetching available actions and endpoints from the object, the wallet provides a UI button to dipatch an instant action. The wallet receives auth token/secret pair from the server. Authenticates the token via Ownership Oracle. Returns the transaction id and secret to be accepted by the server.
 
 For the wallet user, it looks like instantly they got their action done. A new tab opens in a second, with their content.
+<br clear="left"/>
 
 ## Social mission
 
