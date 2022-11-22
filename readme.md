@@ -24,36 +24,19 @@ For the wallet user, it looks like instantly they got their action done. A new t
 Suitable is not meant to be the single authentication method. It is all about choice. After you use the actionable-object. The provider might allow you to stay logged in. So, just passively having the item and getting all the priveleges would be possible. If one wants, he can pin the action to their home screen. Just like an app shortcut.
 In this way, the actions are always one tap distance from the user. Done whenever they want.
 
-Share and care. Send the actionable-object to friends, to family, to people who need it, but can't afford it. The right of action is transferred together with the asset. Social adoption starts with social value. This is how to add value. This our answer to the next billion users.
+Share and care 💞. Send the actionable-object to friends, to family, to people who need it, but can't afford it. The right of action is transferred together with the asset. Social adoption starts with social value. This is how to add value. This our answer to the next billion users.
 
-## Suitable for creators
+## Suitable for creators and companies
 
 We are building a Suitable Marketplace for actionable objects. Creators can add actions without programming.
 Streamers, artists, musicians, inventors, the greatest creative minds. Can share their content with limited edition objects.
 
-> With a piece of art, I received a whole private gallery. All the latest creations from my favourite artist. So much more utility than just an NFT picture. Love it. Would gift it to my sister.
+> With a piece of art, I received a whole private gallery. All the latest creations from my favourite artist. So much more utility than just an NFT picture. Love it. Would gift it to my sister and friends. - Sue Webthree
 
-You bought a ticket to a gaming tournament. Just click it to watch the stream. This easy. After the event is over, the same ticket 
-leads to a 
-
-Crowdsourcing made better. For the early,
-
-
-Genuine copy of windows.
-
-Suitable is it is all about choice
-
-## Safety
-
-## Suitable for companies
-
-Suitable formalized the idea of actions. In this formalism, almost any utility function can be added.
+Suitable formalized the idea of actions. In this formalism, almost any utility function can be added. Crowdsourcing, esports, tickets, streaming, movies, music, games, software, NFC key-pass: every field benefits from instant actions.
 
 Imagine unlocking a Tesla car with Sui wallet. Suitable protocol can be enchanced to allow authentication via NFC. Same tech, another communication channel.
 There is no need to have an app for each key-pass, just a wallet.
-
-Imagine buying a genuine copy of software 
-As actions are implemented . 
 
 ## Substantial difference
 
@@ -75,7 +58,7 @@ With Suitable the flow reduces to:
 3. Click action on your NFT.
 
 What is more fascinating. Suitable is all about sharing and caring. 
-Once you are ready to give away objects to family and friends. Just send it to your children or parents. No need to explain how it works. One tap. All the rights for action are bound to the asset. User needs one tap to act.
+Once you are ready to give away objects to family and friends. Just send it to your children or parents. No need to explain how it works. One tap. All the rights for action are bound to the asset. User needs one tap to act. One tap to spread the vibe of web3. Spreading it from friend to friend to billions.
 
 
 
@@ -91,7 +74,10 @@ Once you are ready to give away objects to family and friends. Just send it to y
 
 
 
+<!-- You bought a ticket to a  gaming tournament. Just click it to watch the stream. This easy. After the event is over, the same ticket 
+leads to a private QA.
 
+Crowdsourcing made better. For the early, -->
 
 <!-- 
 ## Some examples
