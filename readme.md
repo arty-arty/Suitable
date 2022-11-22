@@ -8,7 +8,7 @@ Imagine if everyone could: read the new Harry Potter book, play game of the year
 
 ## Suitable technology
 
-<a href = "https://www.youtube.com/watch?v=agwS91HOJmk"><img align="left" src="https://user-images.githubusercontent.com/86002990/203318407-49731a99-a6e8-4782-9fb6-51fa00ae6ab8.png" width="220px"></a>
+<a href = "https://www.youtube.com/watch?v=agwS91HOJmk"><img align="left" src="https://user-images.githubusercontent.com/86002990/203318407-49731a99-a6e8-4782-9fb6-51fa00ae6ab8.png" width="230px"></a>
 
 Suitable tech is simple and tried. Which makes it safe in production. Suitable stands on three technologies:
 
