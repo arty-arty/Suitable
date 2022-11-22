@@ -53,7 +53,7 @@ const nftId1 = await createActionNFT({
     name: 'Om Nom Run Private Beta',
     description: 'This NFT is your private ticket to content. After you watch send it to friends. Share and care!',
     image: 'https://img.cdn.famobi.com/portal/html5games/images/tmp/OmNomRunTeaser.jpg?v=0.2-d66a2541',
-    endpoint: "http://127.0.0.1:4000/watch/content",
+    endpoint: "http://142.93.218.81:3000/watch/content",
     action_name: "Play"
 })
 
